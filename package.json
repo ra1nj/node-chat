@@ -1,0 +1,25 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "动态图，有点大（4M）请耐心等加载。 ![image](http://oqapmzmc9.bkt.clouddn.com/node-chat%20%281%29.gif)",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tfh93121/node-chat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tfh93121/node-chat/issues"
+  },
+  "homepage": "https://github.com/tfh93121/node-chat#readme"
+}
