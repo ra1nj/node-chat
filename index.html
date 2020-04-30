@@ -25,7 +25,7 @@
   <script>
     var name   = prompt("请输入你的昵称：");
     var socket = io()
-    
+
     //发送昵称给后端，并更改网页title
     socket.emit("join", name)
     document.title = name + "的群聊"
@@ -42,7 +42,7 @@
     //当发送按钮被点击时
     $('form').submit(function () {
       var msg = $("#m").val() //获取用户输入的信息
-      socket.emit("message", msg) //将消息发送给服务器
+      socket.emit("message", name+':'+msg) //将消息发送给服务器
       $("#m").val("") //置空消息框
       return false //阻止form提交
     })
